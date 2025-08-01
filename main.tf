@@ -1,6 +1,6 @@
     provider "google" {
-      project = var.gcp_project // Using a variable for project, or can be picked from GOOGLE_PROJECT env var
-      region  = var.gcp_region  // Using a variable for region, or can be picked from GOOGLE_REGION env var
+      project = var.gcp_project # Replace with your GCP Project ID
+      region  = var.gcp_region   # Replace with your desired region (e.g., "us-central1")
     }
 
 
