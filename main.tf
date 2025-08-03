@@ -2,7 +2,7 @@
       project = var.gcp_project # Replace with your GCP Project ID
       region  = var.gcp_region   # Replace with your desired region (e.g., "us-central1")
     }
-
+/*
 # Create a globally unique Google Cloud Storage bucket
 resource "google_storage_bucket" "my_gcs_bucket" {
   # The name for the bucket must be globally unique.
@@ -42,3 +42,4 @@ resource "google_storage_bucket" "my_gcs_bucket" {
 resource "random_id" "bucket_suffix" {
   byte_length = 4
 }
+*/
